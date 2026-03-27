@@ -1,0 +1,48 @@
+=== Log Analysis Report ===
+
+--- Line Counts ---
+Total Lines: 62
+Error Lines: 12
+Warning Lines: 6
+--- Unique Error Messages ---
+authentication failed: invalid token for user=dave 
+connection timeout: database pool exhausted 
+database connection failed — entering degraded mode 
+file too large: upload rejected (max 10MB) 
+retry 1/3: reconnecting to database 
+retry 2/3: reconnecting to database 
+retry 3/3: reconnecting to database 
+--- Top Endpoints ---
+      2 GET /style.css 200 3ms 
+      1 POST /api/upload 201 512ms 
+      1 POST /api/upload 201 234ms 
+      1 POST /api/logout 200 8ms 
+      1 POST /api/login 200 45ms 
+      1 POST /api/login 200 42ms 
+      1 POST /api/login 200 41ms 
+      1 POST /api/login 200 39ms 
+      1 POST /api/login 200 38ms 
+      1 GET /index.html 200 8ms (cached) 
+      1 GET /index.html 200 12ms 
+      1 GET /index.html 200 11ms 
+      1 GET /dashboard 200 22ms 
+      1 GET /dashboard 200 21ms 
+      1 GET /dashboard 200 20ms 
+      1 GET /dashboard 200 19ms 
+      1 GET /dashboard 200 18ms 
+      1 GET /app.js 200 5ms 
+      1 GET /app.js 200 4ms 
+      1 GET /api/users 200 67ms 
+      1 GET /api/users 200 55ms 
+      1 GET /api/reports 200 98ms 
+      1 GET /api/reports 200 92ms 
+      1 GET /api/reports 200 88ms 
+      1 GET /api/reports 200 145ms 
+      1 GET /api/reports 200 132ms 
+      1 GET /api/reports 200 105ms 
+--- User Logins ---
+      2 user=dave
+      2 user=alice
+      1 user=charlie
+      1 user=bob
+Report generated: Fri Mar 27 23:42:49 UTC 2026
